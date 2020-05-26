@@ -1,6 +1,6 @@
 ## Put comments here that give an overall description of what your
 ## functions do
- compute the inverse, retrieve the inverse from the cache list, change the call matrix to the inverse, compute the inverse on that and return the original function.
+#compute the inverse, retrieve the inverse from the cache list, change the call matrix to the inverse, compute the inverse on that and return the original function.
 
 ## Write a short comment describing this function
 #set the value of the matrix
@@ -25,7 +25,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-#computes the inverse of the special “matrix” returned by makeCacheMatrix above
+#computes the inverse of the special â€œmatrixâ€ returned by makeCacheMatrix above
 cacheSolve <- function(x, ...) {
   i <- x$getinverse()
   if (!is.null(i)) {
